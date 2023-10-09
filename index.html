@@ -9,14 +9,17 @@
 </head>
 <body>
     <header>
-        <img src="./img/logo.svg" alt="Tom's jazz school">
-        <nav class="mt-1 mx-auto">
+        <div>
+            <img src="./img/logo.svg" alt="Tom's jazz school">
+        <nav>
             <a href="#">Inicio</a>
             <a href="#">Cursos</a>
             <a href="#">Eventos</a>
             <a href="#">Contato</a>
         </nav>
         <a href="#" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
+        </div>
+        
     </header>
     <main>
         <section class="hero-section">
@@ -70,8 +73,8 @@
     </main>
     <footer>
         <div>
-            <img src="img/logo.svg" alt="Toms jazz school">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <img src="img/logo.svg" alt="Toms jazz school" class="mb-1">
+            <p class="mb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
         </div>
         <nav>
             <a href="#">Inicio</a>
@@ -80,8 +83,9 @@
             <a href="#">Contato</a>
         </nav>
         <form class="newsletter-form">
-            <label for="email">Receba materiais gratuitos no seu email</label>
-            <input type="text" name="email" id="email" placeholder="Digite o seu e-mail">
+            <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
+            <input type="text" name="email" id="email" class="mb-1" placeholder="Digite o seu e-mail">
+            <button class="button mb-2">Quero receber</button>
         </form>
     </footer>
 </body>
